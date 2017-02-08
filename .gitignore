@@ -4,3 +4,5 @@ vendor/
 config/prod.yml
 src/app.db
 .sass-cache
+.idea/
+composer.lock
