@@ -20,7 +20,11 @@
         "jackalope/jackalope-doctrine-dbal": "To connect to a Doctrine DBAL content repository, 1.1.*"
     },
     "autoload": {
-        "psr-0": {"PHPCRBrowser\\": "src/"}
+        "psr-0": {"PHPCRBrowser\\": "src/"},
+        "psr-4": {
+            "Jackalope\\Transport\\Jackrabbit\\": "src/Jackalope/Transport/Jackrabbit",
+            "Doctrine\\Common\\Annotations\\" : "src/Doctrine/Common/Annotations"
+        }
     },
     "extra": {
         "branch-alias": {
